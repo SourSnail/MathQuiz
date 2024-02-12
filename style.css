@@ -1,0 +1,44 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+    background-image: url(images/R.jpg);
+}
+
+#quiz-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: purple;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+select, input, button {
+    margin-top: 30px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: purple;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: darkmagenta;
+}

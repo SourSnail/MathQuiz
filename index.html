@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Math Quiz</h1>
+        <label for="operation">Choose an operation:</label>
+        <select id="operation">
+            <option value="*">Multiplication</option>
+            <option value="/">Division</option>
+        </select>
+        <label for="numberOfQuestions">Number of Questions:</label>
+        <input type="number" id="numberOfQuestions" min="1" value="5">
+        <button id="startQuiz">Start Quiz</button>
+        <div id="quiz"></div>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
